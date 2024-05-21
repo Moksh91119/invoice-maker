@@ -1,6 +1,7 @@
 # Invoice Maker
 
 Invoice Maker is a front-end web application built to simplify the process of creating and managing invoices. This application leverages the power of modern web technologies to provide a seamless user experience.
+![image](https://github.com/Moksh91119/invoice-maker/assets/111447162/b9267495-4c7f-43e9-8dac-9e03bd580394)
 
 ## Features
 
@@ -22,7 +23,7 @@ To set up the project on your local machine, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Moksh91119/invoice-maker
+    git clone https://github.com/Moksh91119/invoice-maker.git
     ```
 2. **Install node modules**:
 
