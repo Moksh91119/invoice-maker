@@ -171,32 +171,6 @@ function Sidebar() {
         </div>
 
         <hr />
-
-        <div className="mt-4">
-          <motion.a
-            href={"#!"}
-            className="block px-4 py-2 rounded-md flex"
-            initial={{
-              color: "#EC7474",
-              backgroundColor: "#FFEEEE",
-            }}
-            whileHover={{
-              translateX: 6,
-              color: "#777",
-              backgroundColor: "#dfdfdf",
-              transition: {
-                backgroundColor: {
-                  type: "spring",
-                  damping: 18,
-                },
-              },
-            }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <DeleteIcon className="h-6 w-6 mr-4" />
-            Clear Data
-          </motion.a>
-        </div>
       </nav>
     </>
   );
