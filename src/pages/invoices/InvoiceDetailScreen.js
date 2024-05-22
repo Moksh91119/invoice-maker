@@ -1373,7 +1373,6 @@ function InvoiceDetailScreen(props) {
               {params.id === "new" && (
                 <div className="w-full flex-1 my-1 sm:my-1 md:my-0 px-1">
                   <Button
-                    outlined={1}
                     size="sm"
                     block={1}
                     secondary={1}
@@ -1386,7 +1385,6 @@ function InvoiceDetailScreen(props) {
               {invoiceForm?.statusIndex !== "2" && (
                 <div className="w-full flex-1 my-1 sm:my-1 md:my-0 px-1">
                   <Button
-                    outlined={1}
                     size="sm"
                     block={1}
                     danger={1}
